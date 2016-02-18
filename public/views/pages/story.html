@@ -1,0 +1,15 @@
+
+
+   <div ng-controller="StoryController" ng-init="initStory();">
+		<h3>Enter Story contents </h3>
+		<form ng-submit="createStory();">
+			<textarea row="10" col="5" ng-model="storyData.content"> </textarea>
+			<button type="submit">Submit</button>
+		</form>
+		<ul>
+			<li ng-repeat="story in storyContainer  | datecompare ">
+				<div>{{story.content}}</div>
+				<div>{{story.created}}</div>
+			</li>
+		</ul>
+	</div>	

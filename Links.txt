@@ -1,0 +1,9 @@
+Links
+
+Validation
+=================
+
+http://mongoosejs.com/docs/validation.html
+http://jasonjl.me/blog/2014/10/23/adding-validation-for-embedded-objects-in-mongoose/
+http://stackoverflow.com/questions/14407007/best-way-to-check-for-mongoose-validation-error#
+http://stackoverflow.com/questions/15012250/handling-mongoose-validation-errors-where-and-how?rq=1

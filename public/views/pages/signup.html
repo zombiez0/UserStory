@@ -1,0 +1,9 @@
+<h3>Signup</h3>
+<div class="container" ng-controller="UserCreateController">
+	<form method="post" ng-submit="signupUser()">
+		<input type="text" placeholder="Name" ng-model="userData.name">
+		<input type="text" placeholder="Username" ng-model="userData.username">
+		<input type="password" placeholder="Password" ng-model="userData.password">
+		<button type="submit" class="btn btn-success">Signup</button>
+	</form>
+</div>

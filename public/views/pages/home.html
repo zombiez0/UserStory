@@ -1,0 +1,10 @@
+<!-- <a href="/login" class="btn btn-primary">Login</a>
+<a href="/signup" class="btn btn-primary">SignUp</a> -->
+<div ng-if="isLoggedIn">
+	<h1>Welcome to User Story HomePage</h1>
+	<div ng-include src="'views/pages/story.html'"></div>
+</div>
+
+<div ng-if="!isLoggedIn">
+	<h1>kindly login to use the app</h1>
+</div>
